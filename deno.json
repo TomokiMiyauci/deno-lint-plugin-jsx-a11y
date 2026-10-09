@@ -1,0 +1,13 @@
+{
+  "name": "@deno-lint/plugin-jsx-a11y",
+  "exports": "./src/mod.ts",
+  "imports": {
+    "@deno-lint/eslint-compat": "jsr:@deno-lint/eslint-compat@^0.2.0",
+    "@std/assert": "jsr:@std/assert@^1.0.19",
+    "@types/eslint-plugin-jsx-a11y": "npm:@types/eslint-plugin-jsx-a11y@^6.10.1",
+    "eslint-plugin-jsx-a11y": "npm:eslint-plugin-jsx-a11y@^6.10.2"
+  },
+  "tasks": {
+    "test": "deno test --allow-env"
+  }
+}
